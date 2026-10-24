@@ -1,0 +1,696 @@
+{
+    "frames": {
+        "bump_01_001.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 8
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 8
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 8
+            }
+        },
+        "bump_02_001.png": {
+            "frame": {
+                "x": 50,
+                "y": 0,
+                "w": 58,
+                "h": 13
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 13
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 13
+            }
+        },
+        "bump_03_001.png": {
+            "frame": {
+                "x": 108,
+                "y": 0,
+                "w": 50,
+                "h": 10
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 10
+            }
+        },
+        "portal_01_back_001.png": {
+            "frame": {
+                "x": 158,
+                "y": 0,
+                "w": 86,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 155
+            }
+        },
+        "portal_01_front_001.png": {
+            "frame": {
+                "x": 244,
+                "y": 0,
+                "w": 69,
+                "h": 154
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 154
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 154
+            }
+        },
+        "portal_02_back_001.png": {
+            "frame": {
+                "x": 313,
+                "y": 0,
+                "w": 86,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 86,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 86,
+                "h": 155
+            }
+        },
+        "portal_02_front_001.png": {
+            "frame": {
+                "x": 399,
+                "y": 0,
+                "w": 69,
+                "h": 154
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 154
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 154
+            }
+        },
+        "portal_05_back_001.png": {
+            "frame": {
+                "x": 468,
+                "y": 0,
+                "w": 130,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 155
+            }
+        },
+        "portal_05_front_001.png": {
+            "frame": {
+                "x": 0,
+                "y": 155,
+                "w": 117,
+                "h": 181
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 117,
+                "h": 181
+            },
+            "sourceSize": {
+                "w": 117,
+                "h": 181
+            }
+        },
+        "portal_06_back_001.png": {
+            "frame": {
+                "x": 117,
+                "y": 155,
+                "w": 130,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 155
+            }
+        },
+        "portal_06_front_001.png": {
+            "frame": {
+                "x": 247,
+                "y": 155,
+                "w": 117,
+                "h": 181
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 117,
+                "h": 181
+            },
+            "sourceSize": {
+                "w": 117,
+                "h": 181
+            }
+        },
+        "portal_07_back_001.png": {
+            "frame": {
+                "x": 364,
+                "y": 155,
+                "w": 98,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 155
+            }
+        },
+        "portal_07_front_001.png": {
+            "frame": {
+                "x": 462,
+                "y": 155,
+                "w": 89,
+                "h": 171
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 171
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 171
+            }
+        },
+        "portal_08_back_001.png": {
+            "frame": {
+                "x": 117,
+                "y": 326,
+                "w": 101,
+                "h": 151
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 101,
+                "h": 151
+            },
+            "sourceSize": {
+                "w": 101,
+                "h": 151
+            }
+        },
+        "portal_08_front_001.png": {
+            "frame": {
+                "x": 551,
+                "y": 155,
+                "w": 88,
+                "h": 179
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 179
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 179
+            }
+        },
+        "portal_09_back_001.png": {
+            "frame": {
+                "x": 364,
+                "y": 326,
+                "w": 101,
+                "h": 151
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 101,
+                "h": 151
+            },
+            "sourceSize": {
+                "w": 101,
+                "h": 151
+            }
+        },
+        "portal_09_front_001.png": {
+            "frame": {
+                "x": 465,
+                "y": 334,
+                "w": 88,
+                "h": 179
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 88,
+                "h": 179
+            },
+            "sourceSize": {
+                "w": 88,
+                "h": 179
+            }
+        },
+        "portal_10_back_001.png": {
+            "frame": {
+                "x": 598,
+                "y": 0,
+                "w": 98,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 155
+            }
+        },
+        "portal_10_front_001.png": {
+            "frame": {
+                "x": 639,
+                "y": 155,
+                "w": 89,
+                "h": 171
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 171
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 171
+            }
+        },
+        "portal_13_back_001.png": {
+            "frame": {
+                "x": 639,
+                "y": 326,
+                "w": 98,
+                "h": 155
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 155
+            }
+        },
+        "portal_13_front_001.png": {
+            "frame": {
+                "x": 0,
+                "y": 481,
+                "w": 89,
+                "h": 171
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 171
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 171
+            }
+        },
+        "portal_15_back_001.png": {
+            "frame": {
+                "x": 89,
+                "y": 481,
+                "w": 98,
+                "h": 172
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 172
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 172
+            }
+        },
+        "portal_15_front_001.png": {
+            "frame": {
+                "x": 187,
+                "y": 481,
+                "w": 110,
+                "h": 180
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 180
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 180
+            }
+        },
+        "portal_16_back_001.png": {
+            "frame": {
+                "x": 297,
+                "y": 481,
+                "w": 98,
+                "h": 172
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 98,
+                "h": 172
+            },
+            "sourceSize": {
+                "w": 98,
+                "h": 172
+            }
+        },
+        "portal_16_front_001.png": {
+            "frame": {
+                "x": 553,
+                "y": 481,
+                "w": 109,
+                "h": 180
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 109,
+                "h": 180
+            },
+            "sourceSize": {
+                "w": 109,
+                "h": 180
+            }
+        },
+        "portal_17_back_001.png": {
+            "frame": {
+                "x": 696,
+                "y": 0,
+                "w": 92,
+                "h": 149
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 149
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 149
+            }
+        },
+        "portal_17_front_001.png": {
+            "frame": {
+                "x": 728,
+                "y": 149,
+                "w": 89,
+                "h": 169
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 169
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 169
+            }
+        },
+        "ring_01_001.png": {
+            "frame": {
+                "x": 737,
+                "y": 318,
+                "w": 60,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "ring_02_001.png": {
+            "frame": {
+                "x": 0,
+                "y": 378,
+                "w": 63,
+                "h": 63
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 63,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 63,
+                "h": 63
+            }
+        },
+        "ring_03_001.png": {
+            "frame": {
+                "x": 218,
+                "y": 378,
+                "w": 61,
+                "h": 60
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 60
+            }
+        },
+        "secretCoin_01_001.png": {
+            "frame": {
+                "x": 279,
+                "y": 378,
+                "w": 80,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 80,
+                "h": 80
+            }
+        },
+        "secretCoin_01_002.png": {
+            "frame": {
+                "x": 553,
+                "y": 378,
+                "w": 68,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 80
+            }
+        },
+        "secretCoin_01_003.png": {
+            "frame": {
+                "x": 788,
+                "y": 0,
+                "w": 20,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 80
+            }
+        },
+        "secretCoin_01_004.png": {
+            "frame": {
+                "x": 737,
+                "y": 378,
+                "w": 68,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 68,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 68,
+                "h": 80
+            }
+        }
+    },
+    "meta": {
+        "app": "https://www.codeandweb.com/texturepacker",
+        "version": "1.0",
+        "image": "spritesheet.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 817,
+            "h": 661
+        },
+        "scale": "1",
+        "comment": "Created with TexturePacker Online (free version)\nhttps://www.codeandweb.com/texturepacker-online\n\nTexturePacker desktop offers better support for Pixi and Phaser with sprite trimming, better packing algorithms, hardware texture compression, and PNG optimization.\nTry TexturePacker desktop: https://www.codeandweb.com/texturepacker"
+    }
+}
