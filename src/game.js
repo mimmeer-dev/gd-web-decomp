@@ -52911,6 +52911,8 @@ function Zi(_0x36e71a) {
 		'objects': _0x182bfe
 	};
 }
+
+// this must be OBJECTS.
 const Ji = _0x45f814(0x1639),
 	Qi = 'hazard',
 	$i = _0x45f814(0xc1b),
@@ -52929,10 +52931,10 @@ const Ji = _0x45f814(0x1639),
 			'gridH': 0x1
 		},
 		0x2: {
-			'type': Ji,
-			'frame': 'square_02_001.png',
-			'gridW': 0x1,
-			'gridH': 0x1
+			'type': Ji, // some string
+			'frame': 'square_02_001.png', // image name
+			'gridW': 0x1, // width
+			'gridH': 0x1 // height
 		},
 		0x3: {
 			'type': Ji,
