@@ -52855,30 +52855,31 @@ var qi = {
 	'constants': _t
 };
 
-function Ki(_0xc5a652) {
+// this must be level data parsing.
+function ParseLvlData(lvlString) {
 	var _0x4cd360 = _0x45f814;
-	let _0x449d19 = _0xc5a652[_0x4cd360(0xa9f)](','),
-		_0xd8d678 = {};
+	let _0x449d19 = lvlString[_0x4cd360(0xa9f)](','),
+		levelObject = {};
 	for (let _0x2d4f15 = 0x0; _0x2d4f15 + 0x1 < _0x449d19[_0x4cd360(0x1824)]; _0x2d4f15 += 0x2) {
 		let _0x27a0d8 = parseInt(_0x449d19[_0x2d4f15], 0xa),
 			_0x144e89 = _0x449d19[_0x2d4f15 + 0x1];
-		_0xd8d678[_0x27a0d8] = _0x144e89;
+		levelObject[_0x27a0d8] = _0x144e89;
 	}
-	let _0x41f2cd = parseInt(_0xd8d678[0x1] || '0', 0xa);
-	return 0x0 === _0x41f2cd ? null : {
+	let _0x41f2cd = parseInt(levelObject[0x1] || '0', 0xa);
+	return 0x0 === _0x41f2cd ? null : { // these match some common attributes in geometry dash's object data
 		'id': _0x41f2cd,
-		'x': parseFloat(_0xd8d678[0x2] || '0'),
-		'y': parseFloat(_0xd8d678[0x3] || '0'),
-		'flipX': '1' === _0xd8d678[0x4],
-		'flipY': '1' === _0xd8d678[0x5],
-		'rot': parseFloat(_0xd8d678[0x6] || '0'),
-		'scale': parseFloat(_0xd8d678[0x20] || '1'),
-		'zLayer': parseInt(_0xd8d678[0x18] || '0', 0xa),
-		'zOrder': parseInt(_0xd8d678[0x19] || '0', 0xa),
-		'groups': _0xd8d678[0x39] || '',
-		'color1': parseInt(_0xd8d678[0x15] || '0', 0xa),
-		'color2': parseInt(_0xd8d678[0x16] || '0', 0xa),
-		'_raw': _0xd8d678
+		'x': parseFloat(levelObject[0x2] || '0'),
+		'y': parseFloat(levelObject[0x3] || '0'),
+		'flipX': '1' === levelObject[0x4],
+		'flipY': '1' === levelObject[0x5],
+		'rot': parseFloat(levelObject[0x6] || '0'),
+		'scale': parseFloat(levelObject[0x20] || '1'),
+		'zLayer': parseInt(levelObject[0x18] || '0', 0xa),
+		'zOrder': parseInt(levelObject[0x19] || '0', 0xa),
+		'groups': levelObject[0x39] || '',
+		'color1': parseInt(levelObject[0x15] || '0', 0xa),
+		'color2': parseInt(levelObject[0x16] || '0', 0xa),
+		'_raw': levelObject
 	};
 }
 
@@ -52903,7 +52904,7 @@ function Zi(_0x36e71a) {
 		_0x182bfe = [];
 	for (let _0x2d9a79 = 0x1; _0x2d9a79 < _0x38c751[_0x45f9e1(0x1824)]; _0x2d9a79++) {
 		if (0x0 === _0x38c751[_0x2d9a79][_0x45f9e1(0x1824)]) continue;
-		let _0x42323c = Ki(_0x38c751[_0x2d9a79]);
+		let _0x42323c = ParseLvlData(_0x38c751[_0x2d9a79]);
 		_0x42323c && _0x182bfe[_0x45f9e1(0x17da)](_0x42323c);
 	}
 	return {
