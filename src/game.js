@@ -21,6 +21,32 @@ function readStringDecoder(hex_value) {
 
 window.readStringDecoder = readStringDecoder;
 
+let strings = _0x16d7()
+var index = 0
+
+let newStrings = []
+
+for (const string of strings) {
+	var getOutput = function(string) {
+			var _0x419076 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
+			var _0x16a9f3 = '',
+				_0x35374e = '';
+			for (var _0x121e30 = 0x0, _0x130fe6, _0xc80583, _0x145e5b = 0x0; _0xc80583 = string['charAt'](_0x145e5b++); ~_0xc80583 && (_0x130fe6 = _0x121e30 % 0x4 ? _0x130fe6 * 0x40 + _0xc80583 : _0xc80583, _0x121e30++ % 0x4) ? _0x16a9f3 += String['fromCharCode'](0xff & _0x130fe6 >> (-0x2 * _0x121e30 & 0x6)) : 0x0) {
+				_0xc80583 = _0x419076['indexOf'](_0xc80583);
+			}
+			for (var _0x5a2c3a = 0x0, _0x7b1915 = _0x16a9f3['length']; _0x5a2c3a < _0x7b1915; _0x5a2c3a++) {
+				_0x35374e += '%' + ('00' + _0x16a9f3['charCodeAt'](_0x5a2c3a)['toString'](0x10))['slice'](-0x2);
+			}
+			return _0x35374e;
+		};
+	let result = decodeURIComponent(getOutput(string))
+	console.log(index.toString(16).concat(": ", result))
+	newStrings.push(result)
+	index++;
+}
+
+console.table(newStrings)
+
 // END CUSTOM DEBUG CODE
 
 function t(_0x16a9f3) {
@@ -52072,13 +52098,14 @@ function Be(_0x45c065) {
 	}
 }
 
+// String Decoder
 function _0x4e0e(_0x27f943, _0x17019c) {
 	_0x27f943 = _0x27f943 - 0xbb;
 	var _0x16d711 = _0x16d7();
 	var _0x4e0edf = _0x16d711[_0x27f943];
 	if (_0x4e0e['LorYlE'] === undefined) {
 		var _0x5eb931 = function(_0x1274ae) {
-			var _0x419076 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/='; // base64n't?
+			var _0x419076 = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
 			var _0x16a9f3 = '',
 				_0x35374e = '';
 			for (var _0x121e30 = 0x0, _0x130fe6, _0xc80583, _0x145e5b = 0x0; _0xc80583 = _0x1274ae['charAt'](_0x145e5b++); ~_0xc80583 && (_0x130fe6 = _0x121e30 % 0x4 ? _0x130fe6 * 0x40 + _0xc80583 : _0xc80583, _0x121e30++ % 0x4) ? _0x16a9f3 += String['fromCharCode'](0xff & _0x130fe6 >> (-0x2 * _0x121e30 & 0x6)) : 0x0) {
