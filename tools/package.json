@@ -1,0 +1,32 @@
+{
+  "name": "gw-tools",
+  "version": "1.0.0",
+  "description": "Tools to help me decompile Geometry Dash's web recreation/build",
+  "keywords": [
+    "geometry-dash",
+    "decompilation",
+    "web",
+    "deobfuscation"
+  ],
+  "homepage": "https://github.com/mimmeer-dev/gd-web-decomp#readme",
+  "bugs": {
+    "url": "https://github.com/mimmeer-dev/gd-web-decomp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimmeer-dev/gd-web-decomp.git"
+  },
+  "license": "MIT",
+  "author": "Mimmeer",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.4",
+    "cli-menu-kit": "^0.2.1",
+    "colors": "^1.4.0",
+    "open": "^11.0.4"
+  }
+}
