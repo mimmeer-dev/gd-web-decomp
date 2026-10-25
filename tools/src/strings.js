@@ -8,18 +8,21 @@ export async function decodeString() {
     let canContinue = true;
     while (canContinue) {
         let value = await input.text({
-            "placeholder": "Hexadecimal / Decimal",
+            "placeholder": "Hexadecimal / Decimal / exit",
             "prompt": "Enter the code for your string"
         });
         if (value.toLowerCase()=="exit") {
             canContinue = false;
             continue;
         }
-        let noHex = Number(value);
-        let xHex = Number("0x"+value);
+        let dec = parseInt(value, 10);
+        let hex = parseInt(value, 16);
+        let xHex = parseInt("0x"+value, 16);
         let num = NaN;
-        if (!isNaN(noHex)) {
-            num=noHex
+        if (/^\d+$/.test(value)) {
+            num = dec
+        } else if (!isNaN(hex)) {
+            num=hex
         } else if (!isNaN(xHex)) {
             num=xHex
         } else {
